@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic Document Checker</title>
+    <title>TravelPass</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,14 +12,14 @@
         <div class="triangle"></div>
     </div>
     <div class="container">
-        <h1>Magic Document Checker</h1>
+        <h1>TravelPass</h1>
         <p>Please select your role to proceed</p>
         <button id="loginAsAdmin" class="btn-primary">Login as Admin</button>
-        <button id="loginAsUser" class="btn-primary">Login as User</button>
+        <button id="loginAsUser" class="btn-primary">Verify</button>
     </div>
     <script>
         document.getElementById('loginAsAdmin').addEventListener('click', () => {
-             window.location.href = 'LoginAdmin/index.html';
+            window.location.href = 'admin.html';
         });
 
         document.getElementById('loginAsUser').addEventListener('click', () => {
